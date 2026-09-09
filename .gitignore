@@ -1,0 +1,7 @@
+chroma_store/
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+.vscode/
+data/*_results.csv

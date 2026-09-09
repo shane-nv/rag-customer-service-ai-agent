@@ -1,0 +1,69 @@
+id,question,lang,label,expected_doc_id,notes
+a01,退貨可以幾天內申請?,zh,answerable,return-eligibility,
+a02,退款要多久才會退到我的信用卡?,zh,answerable,refund-timeline,
+a03,收到的商品破損了怎麼辦?,zh,answerable,damaged-item,
+a04,How long does delivery to the US take?,en,answerable,shipping-times,
+a05,運費怎麼算?有免運門檻嗎?,zh,answerable,shipping-fees,
+a06,我要怎麼查包裹到哪裡了?,zh,answerable,order-tracking,
+a07,Do I need to pay import duties?,en,answerable,customs-duties,
+a08,出貨後可以改收件地址嗎?,zh,answerable,change-address,
+a09,你們有寄送到日本嗎?,zh,answerable,shipping-regions,
+a10,可以用 LINE Pay 付款嗎?,zh,answerable,payment-methods,
+a11,How is my refund returned?,en,answerable,refund-timeline,
+a12,分期付款要怎麼用?,zh,answerable,installment,
+a13,忘記密碼要怎麼重設?,zh,answerable,reset-password,
+a14,銀卡和金卡會員差在哪?,zh,answerable,membership-tiers,
+a15,沐光點會過期嗎?,zh,answerable,points-program,
+a16,我可以取消已成立的訂單嗎?,zh,answerable,modify-cancel-order,
+a17,"What does the ""Shipped"" order status mean?",en,answerable,order-status,
+a18,下單後缺貨會怎麼處理?,zh,answerable,out-of-stock,
+a19,預購商品大概什麼時候出貨?,zh,answerable,preorder,
+a20,衣服的尺寸要怎麼看?,zh,answerable,sizing-guide,
+a21,客服的服務時間是幾點到幾點?,zh,answerable,contact-support,
+a22,優惠碼要怎麼使用?,zh,answerable,promo-codes,
+a23,有提供禮物包裝服務嗎?,zh,answerable,gift-wrapping,
+a24,Can I get an invoice with a company tax ID?,en,answerable,invoice-receipt,
+a25,退貨的運費要我自己出嗎?,zh,answerable,return-policy-overview|return-eligibility|exchange-process,亦可能命中 return-eligibility
+n01,可以貨到付款嗎?,zh,answerable_negative,payment-methods,未提供 COD，應答否+列出可用方式
+n02,可以用微信支付嗎?,zh,answerable_negative,payment-methods,未提供微信支付
+n03,你們有寄到韓國嗎?,zh,answerable_negative,shipping-regions,韓國不在配送清單
+n04,Do you offer same-day delivery?,en,answerable_negative,shipping-times,無當日配送
+o01,請問你們老闆是誰?,zh,out_of_scope,,離題
+o02,你們有賣 iPhone 嗎?,zh,out_of_scope,,無商品目錄可查
+o03,今天台北天氣如何?,zh,out_of_scope,,離題
+o04,你們公司的股價是多少?,zh,out_of_scope,,離題
+o05,幫我寫一首關於秋天的詩,zh,out_of_scope,,偏離客服任務
+o06,What is the capital of France?,en,out_of_scope,,離題
+a26,金卡會員享有全站免運嗎?,zh,answerable,membership-tiers,
+a27,How do I earn MiraLoom points?,en,answerable,points-program,
+a28,訂單成立後我會收到什麼確認?,zh,answerable,order-confirmation,
+a29,你們如何保護我的個人資料?,zh,answerable,privacy-policy,
+a30,衣物的材質要怎麼保養?,zh,answerable,product-materials-care,
+a31,Do electronics come with a warranty?,en,answerable,warranty,
+a32,要怎麼註冊成為會員?,zh,answerable,register-account,
+a33,我一直登入失敗怎麼辦?,zh,answerable,login-issues,
+n05,可以用比特幣付款嗎?,zh,answerable_negative,payment-methods,未提供加密貨幣
+n06,Can I pay by bank wire transfer?,en,answerable_negative,payment-methods,未提供電匯
+n07,你們有寄到中國大陸嗎?,zh,answerable_negative,shipping-regions,不在配送清單
+n08,Do you ship to the UK?,en,answerable_negative,shipping-regions,不在配送清單
+n09,可以到實體門市退貨嗎?,zh,answerable_negative,how-to-return|return-policy-overview,"無實體門市, 採寄回"
+n10,有電話客服專線嗎?,zh,answerable_negative,contact-support,"無電話, 僅 email/LINE/表單"
+n11,Can I return opened cosmetics?,en,answerable_negative,return-eligibility,已拆封美妝不適用
+n12,客製化商品可以退貨嗎?,zh,answerable_negative,return-eligibility,客製化不適用
+n13,分期付款可以搭配 PayPal 嗎?,zh,answerable_negative,installment,分期不適用 PayPal
+n14,沐光點可以直接換現金嗎?,zh,answerable_negative,points-program,點數不可兌現
+o07,明天會下雨嗎?,zh,out_of_scope,,離題
+o08,推薦我一部好看的電影,zh,out_of_scope,,離題
+o09,幫我算 25 乘以 36 是多少?,zh,out_of_scope,,離題
+o10,Who won the last World Cup?,en,out_of_scope,,離題
+o11,你們公司有在徵人嗎?,zh,out_of_scope,,業務相鄰但 KB 未涵蓋
+o12,可以幫我寫一段 Python 程式嗎?,zh,out_of_scope,,離題
+o13,What is the meaning of life?,en,out_of_scope,,離題
+o14,你們執行長的年薪多少?,zh,out_of_scope,,KB 未涵蓋
+o15,介紹幾家台北好吃的餐廳,zh,out_of_scope,,離題
+o16,Tell me a joke,en,out_of_scope,,離題
+o17,你覺得我該投資哪支股票?,zh,out_of_scope,,離題/不宜
+o18,幫我訂一張到東京的機票,zh,out_of_scope,,離題
+o19,How do I factory reset my iPhone?,en,out_of_scope,,離題(裝置支援)
+o20,你們公司總共有幾位員工?,zh,out_of_scope,,KB 未涵蓋
+o21,現在幾點?,zh,out_of_scope,,離題

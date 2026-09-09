@@ -1,0 +1,40 @@
+zh_term,en_term,category,notes,do_not_use
+退款,refund,returns,金額退回原付款方式,退錢
+退貨,return,returns,把商品寄回,送回;退回(單獨用時)
+換貨,exchange,returns,換尺寸或顏色,更換;交換
+退換貨,return & exchange,returns,政策統稱,退換(簡稱僅口語)
+鑑賞期,inspection period,product,非瑕疵可退的期間=14天,"猶豫期(擇一, 勿混用)"
+瑕疵,defective,returns,商品製造缺陷,有問題;壞掉
+簽收,delivery (sign-off),shipping,"收到並簽名, 退貨期起算點","到貨(語境相依, 勿當同義)"
+出貨,dispatch / ship,shipping,交給物流,發貨
+配送時效,delivery time,shipping,送達所需工作日,到貨時間
+運費,shipping fee,shipping,,郵資
+免運門檻,free-shipping threshold,shipping,達額免運,免費運送
+物流單號,tracking number,shipping,"查件用, 與訂單編號不同",追蹤號;快遞單號
+關稅,customs duties,shipping,"進口稅費, 收件人負擔",稅金
+收件人,recipient,shipping,,收貨人
+付款方式,payment method,payment,,支付方式
+分期付款,installment,payment,"滿NT$3,000, 限指定卡",分期(簡稱僅口語)
+發票,invoice,payment,台灣電子發票,"收據(receipt 另計, 勿互換)"
+統一編號,tax ID,payment,"公司報帳, 簡稱統編",
+幣別,currency,payment,,
+匯率,exchange rate,payment,,
+會員中心,Member Center,account,帳號後台,會員專區
+一般會員,General member,account,會員等級,
+銀卡,Silver,account,"累積滿NT$10,000",
+金卡,Gold,account,"累積滿NT$30,000, 全站免運",
+沐光點,MiraLoom Points,account,"品牌點數專名, 勿泛譯成 points",積分
+折抵,redeem / offset,account,以點數抵金額,折扣(不同義)
+二階段驗證,two-factor authentication (2FA),account,,雙重驗證(擇一)
+訂單編號,order number,orders,與物流單號區分,"單號(易混淆, 少用)"
+訂單狀態,order status,orders,,
+缺貨,out of stock,orders,,沒貨;無貨
+補貨,restock,orders,,進貨;到貨
+預購,pre-order,orders,商品頁標示預計出貨日,預訂
+尺寸表,size chart,product,平量數據,尺碼表(擇一)
+保固,warranty,product,電子類1年,保修(陸用語)
+材質,material,product,,
+客服,customer support,general,統一用「客服」,客戶服務;客服中心(擇一)
+優惠碼,promo code,general,統一用「優惠碼」,折扣碼;優惠券代碼
+禮物包裝,gift wrapping,general,付費服務,
+隱私政策,Privacy Policy,general,,私隱政策(港用語)

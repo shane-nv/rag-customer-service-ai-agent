@@ -1,0 +1,12 @@
+langchain>=0.3
+langchain-core>=0.3
+langchain-community>=0.3
+langchain-ollama>=0.2
+langchain-chroma>=0.1.4
+langchain-text-splitters>=0.3
+chromadb>=0.5
+python-frontmatter>=1.1
+streamlit>=1.36
+matplotlib>=3.8
+numpy>=1.26
+pytest>=8.0
